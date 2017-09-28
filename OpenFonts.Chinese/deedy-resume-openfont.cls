@@ -26,7 +26,7 @@
 % Set main fonts
 \usepackage{fontspec}
 \setmainfont[Color=primary, Path = fonts/source-han-serif/,BoldItalicFont=SourceHanSerifSC-Bold,BoldFont=SourceHanSerifSC-Bold,ItalicFont=SourceHanSerifSC-Bold]{SourceHanSerifSC-Regular}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/source-han-serif/]{SourceHanSerifSC-ExtraLight}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/source-han-sans/]{SourceHanSansSC-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
