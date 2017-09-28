@@ -60,18 +60,18 @@ Last Updated on \today
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Bold}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\scshape\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Bold}\fontsize{16pt}{24pt}\selectfont \raggedright}{}{0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
-\color{subheadings}\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Medium}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Regular}\fontsize{10pt}{10pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/source-han-serif/]{SourceHanSerifSC-Regular}\fontsize{10pt}{10pt}\selectfont {#1 \\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{

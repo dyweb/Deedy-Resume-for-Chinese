@@ -14,7 +14,7 @@ Deedy-Resume-For-Chinese
 ### OpenFonts
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png" width="500">
+	<img src="./OpenFonts/sample-image.png" width="500">
 </div>
 
 ### MacFonts
