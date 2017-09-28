@@ -7,13 +7,21 @@ Deedy-Resume-For-Chinese
 
 ### OpenFonts For Chinese
 
-![](./OpenFonts.Chinese/sample-image.png)
+<div align="center">
+	<img src="./OpenFonts.Chinese/sample-image.png" width="500">
+</div>
 
 ### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
+
+<div align="center">
+	<img src="https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png" width="500">
+</div>
 
 ### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+
+<div align="center">
+	<img src="https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png" width="500">
+</div>
 
 ## Dependencies
 
