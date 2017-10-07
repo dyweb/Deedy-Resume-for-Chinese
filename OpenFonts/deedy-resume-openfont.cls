@@ -25,8 +25,8 @@
 
 % Set main fonts
 \usepackage{fontspec}
-\setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setmainfont[Color=primary, Path = fonts/source-serif-pro/,BoldItalicFont=SourceSerifPro-Bold,BoldFont=SourceSerifPro-Bold,ItalicFont=SourceSerifPro-Light]{SourceSerifPro-Regular}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/source-sans-pro/]{SourceSansPro-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
@@ -34,7 +34,7 @@
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
+\color{date}\fontspec[Path = fonts/source-sans-pro/]{SourceSansPro-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on \today
 \end{textblock}}
 
@@ -42,12 +42,12 @@ Last Updated on \today
 \newcommand{\namesection}[3]{
 \centering{
 \fontsize{30pt}{30pt}
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #1 
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
+\fontspec[Path = fonts/source-serif-pro/]{SourceSerifPro-Light}\selectfont #1 
+\fontspec[Path = fonts/source-serif-pro/]{SourceSerifPro-Light}\selectfont #2
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont #3}
+\fontspec[Path = fonts/source-sans-pro/]{SourceSansPro-Regular}\fontsize{11pt}{11pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}}
 \vspace{-15pt}
 }
@@ -60,25 +60,24 @@ Last Updated on \today
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright}{}{0em}{}
+\fontspec[Path = fonts/source-serif-pro/]{SourceSerifPro-Bold}\fontsize{16pt}{24pt}\selectfont \raggedright}{}{0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/source-serif-pro/]{SourceSerifPro-Bold}\fontsize{12pt}{12pt}\selectfont\bfseries}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/source-serif-pro/]{SourceSerifPro-Bold}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/source-sans-pro/]{SourceSansPro-Regular}\fontsize{10pt}{10pt}\selectfont {#1 \\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{11pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/source-sans-pro/]{SourceSansPro-Regular}\fontsize{10pt}{10pt}\selectfont {#1\\} \normalfont}
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
-
